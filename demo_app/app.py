@@ -42,8 +42,8 @@ if_p = {
     "fn":summarize,
     "inputs":gr.inputs.Textbox(label="Text"),
     "outputs":gr.outputs.Textbox(label="Output"),
-    "title":"Fine-tuned BERT moedl for text generation",
-    "description":"Write something to generate text",
+    "title":"Fine-tuned 't5-small' model for text summarization",
+    "description":"Write something to summarization text",
     "examples":examples
 }
 
